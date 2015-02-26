@@ -1,7 +1,17 @@
 /* Base.scss */
 
 body {
+    @incude body-font-light;
     margin: 0 auto;
     max-width: 600px;
-    width: 100px;
+    width: 100%;
 }
+
+img{
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+   @include headline-font;
+}
+    
