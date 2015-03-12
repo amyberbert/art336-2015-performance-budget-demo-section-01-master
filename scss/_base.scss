@@ -1,7 +1,10 @@
 /* Base.scss */
 
 body {
+    background-color: $background-color;
+    color: $color;
     @incude body-font-light;
+    font-size: $base-font-size;
     margin: 0 auto;
     max-width: 600px;
     width: 100%;
@@ -13,5 +16,6 @@ img{
 
 h1, h2, h3 {
    @include headline-font;
+    line-height: 1;
 }
-    
+
