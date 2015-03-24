@@ -2,25 +2,14 @@
 
 body {
     background-color: $background-color;
-    box-sizing: border-box;
+    //box-sizing: border-box;
     color: $color;
     @incude body-font-light;
     font-size: $base-font-size;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0 10px;
-    width: 100%;
-}
-
-@media screen and (min-width: 800px) {
-    body {
-    
-        color: pink;
-    }
-        .cafe h1, .food h1, .attractions h1,
-        .cafe h2, .food h2, .attractions h2{
-            font-size: em(70px);
-    }
+    //margin: 0 auto;
+    //max-width: 600px;
+    //padding: 0 10px;
+    //width: 100%;
 }
 
 img{
