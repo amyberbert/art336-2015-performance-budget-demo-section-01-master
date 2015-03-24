@@ -59,10 +59,6 @@ header[role="banner"] svg {
      }
 }
 
-//.cafe-location:last-of-type, .food-location:last-of-type, .attraction-location:last-of-type {
-//    margin-bottom:0;
-//}
-
 .street-address:before {
     content: "a. ";
     @include headline-font;
